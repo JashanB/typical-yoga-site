@@ -1,18 +1,18 @@
 <link href="/styles/nav.css" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<!-- <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"> -->
 
 <header>
   <nav>
     <form method="GET" action="/about">
 
-      <button class='title'> <i class="fas fa-brain hvr-grow"></i>Yoga-Me</button>
+      <button class='title'>Yoga-Me</button>
     </form>
     <div class="user-buttons">
       <form method="GET" action="/about">
         <button class="hvr-grow">About Us</button>
       </form>
-      <form method="GET" action="/staff/<%= resource.userId %>">
+      <form method="GET" action="/staff %>">
         <button class="hvr-grow">Our Staff</button>
       </form>
       <form method="GET" action="/schedule">
